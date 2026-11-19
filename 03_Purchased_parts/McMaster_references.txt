@@ -1,0 +1,37 @@
+PIVOT HARDWARE OF THE OLD GEAR GRIPPER (02_Old_gripper) - McMaster-Carr references
+==================================================================================
+
+Quantity: 7 screws + 7 nuts
+  - link/finger pivots x2, gear/finger x2
+  - pivots on the frame: links x2, driven gear x1
+  (the drive gear is carried by the SG90 shaft, no screw)
+
+1) Shoulder screw - McMaster 91273A322
+   https://www.mcmaster.com/91273A322/
+   Same-Size Thread 18-8 Stainless Steel Shoulder Screw
+   - Smooth shoulder: D3 mm (tol. -0.04 / -0.01), length 6 mm (tol. 0 / +0.25)
+   - Thread: M3 x 0.5, length 4 mm
+   - Head: D5 x 2 mm, 2 mm hex socket
+   - Indicative price: $4.96 each ($4.20 from 5)
+   File: CAD/Screws_McMaster/91273A322_shoulder_screw_D3_L6_M3.SLDPRT
+
+2) Nylon-insert locknut - McMaster 93625A100
+   https://www.mcmaster.com/93625A100/
+   18-8 Stainless Steel Nylon-Insert Locknut, M3 x 0.5
+   - 5.5 mm across flats, 4 mm high
+   - Indicative price: $6.94 for a pack of 100
+   File: CAD/Screws_McMaster/93625A100_nylon_locknut_M3.SLDPRT
+
+Principle: the two plates (2 x 3 mm = 6 mm) turn on the smooth shoulder.
+The nut tightens against the end of the shoulder (not against the plates), so the
+pivot stays free; the nylon insert stops the nut from coming loose.
+
+Note: these two .SLDPRT files were modelled from the dimensions of the McMaster data sheets
+(downloading the official CAD requires a logged-in McMaster account).
+To replace them with the official files: log in on mcmaster.com, "Download" button
+(3-D SolidWorks) on each product page, then in SolidWorks right-click the component >
+Replace Components.
+
+Other McMaster parts in this folder:
+  - 90265A189 18-8 stainless steel shoulder screw (used by the arm assemblies)
+  - 57155K352 stainless steel ball bearing
