@@ -45,7 +45,15 @@ flowchart LR
 | PCA9685 16-channel PWM board | 1 | generates the servo pulses (50 Hz) |
 | 5–6 V power supply for the servos | 1 | separate from the ESP32, common ground; an MG995 can draw about 2.5 A when it stalls |
 | 3D-printed parts | — | STL / 3MF files in `01_Arm`, `05_Gripper` |
-| McMaster-Carr 90265A189 shoulder screws | — | used in the arm assemblies (the other McMaster models belong to the old gripper or are spare: see `03_Purchased_parts/McMaster_references.txt`) |
+| McMaster-Carr 90265A189 shoulder screws | — | used in the arm assemblies (the other McMaster models belong to the old gripper or are spare: see `03_Purchased_parts/McMaster_references.txt`). **Cheaper option: a printed sleeve on an M3 screw**, see below |
+
+### Shoulder screws: printed alternative
+
+You do not need to buy the shoulder screws: print `03_Purchased_parts/CAD/Screws_McMaster/Shoulder_screw_holder` (3MF ready to slice in `03_Purchased_parts/Gcode/Shoulder_screw_holder.3mf`) and slide it onto a standard **M3 screw**.
+
+- The sleeve is Ø5 mm outside, Ø3 mm bore, 5 mm long: it plays the role of the smooth shoulder of the screw.
+- The joint turns on the sleeve, and the M3 screw and its nut only hold it in place.
+- This does the job on this arm.
 
 ## Wiring
 

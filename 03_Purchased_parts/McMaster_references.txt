@@ -35,3 +35,8 @@ Replace Components.
 Other McMaster parts in this folder:
   - 90265A189 18-8 stainless steel shoulder screw (used by the arm assemblies)
   - 57155K352 stainless steel ball bearing
+
+Printed alternative to the shoulder screws:
+  CAD/Screws_McMaster/Shoulder_screw_holder.SLDPRT (and Gcode/Shoulder_screw_holder.3mf) is a printed
+  sleeve, D5 mm outside, D3 mm bore, 5 mm long. Slide it onto a standard M3 screw: the joint turns
+  on the sleeve and the M3 screw only holds it. It does the job on this arm.
