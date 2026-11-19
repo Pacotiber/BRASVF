@@ -169,6 +169,7 @@ Messages: `pos u0 … u4` (10 times per second while moving), `done`, `ok`, `err
 
 ## Credits and licences
 
+- **This project** (code, firmware, CAD and documentation by the author): MIT licence, see [`LICENSE`](LICENSE). The third-party files listed below keep their own terms.
 - **Gripper** (`05_Gripper`): "Micro Servo Parallel Gripper" by Techniccontroller, MIT licence (see `05_Gripper/LICENSE.txt`). Sources: [GrabCAD](https://grabcad.com/library/micro-servo-parallel-gripper-1), [techniccontroller.com](https://techniccontroller.com/3d-printed-parallel-gripper/).
 - **Purchased part models** (`03_Purchased_parts`): servo and horn models downloaded from the GrabCAD Community (credit to their authors; see each model's page for its terms), and McMaster-Carr parts (two of them modelled from the McMaster data sheets).
 
